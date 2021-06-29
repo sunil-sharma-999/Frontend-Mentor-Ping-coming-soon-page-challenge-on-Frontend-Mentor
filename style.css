@@ -1,0 +1,168 @@
+:root {
+  --grey: hsl(0, 0%, 59%);
+  --darkBlue: hsl(209, 33%, 12%);
+  --blue: hsl(223, 87%, 63%);
+  --red: hsl(354, 100%, 66%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Franklin';
+}
+/* container */
+.container {
+  text-align: center;
+  margin: 2rem 1rem;
+}
+/* text */
+.logo {
+  width: 50px;
+  margin: 4rem 0 1.2rem 0;
+}
+.title {
+  font-weight: 300;
+  color: var(--grey);
+  font-size: 20px;
+}
+.title span {
+  font-weight: 600;
+  color: var(--darkBlue);
+}
+.subtitle {
+  color: var(--grey);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  height: 160px;
+}
+/* email */
+.email {
+  border-radius: 50px;
+  border: 1px solid hsl(223, 100%, 88%);
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  outline: none;
+}
+.email::placeholder {
+  color: rgba(0, 255, 255, 0.5);
+}
+.email:focus {
+  border: 1.5px solid var(--blue);
+}
+/* button */
+button {
+  border-radius: 50px;
+  border: none;
+  background-color: var(--blue);
+  margin-top: 0.7rem;
+  padding: 0.8rem;
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 30px -7px cadetblue;
+}
+button:hover {
+  background: var(--darkBlue);
+  cursor: pointer;
+}
+/* img */
+.stats {
+  width: 320px;
+  margin: 1rem 0 4rem 0;
+}
+/* social */
+ul {
+  margin: 4rem 0 0 0;
+  color: var(--blue);
+  padding: 0;
+}
+ul i {
+  margin: 0 10px;
+}
+footer p {
+  text-align: center;
+  color: var(--grey);
+  font-size: 10px;
+}
+form p {
+  visibility: collapse;
+}
+.err::placeholder,
+.valid::placeholder {
+  color: white;
+}
+p.visible {
+  font-size: 10px;
+  font-style: italic;
+  visibility: visible;
+}
+/* error */
+.email.err {
+  border: 1px solid var(--red);
+}
+p.err {
+  color: var(--red);
+}
+/* valid */
+.email.valid {
+  border: 1px solid green;
+  color: green;
+}
+p.valid {
+  color: green;
+}
+@media (min-width: 800px) {
+  /* logo */
+  .logo {
+    width: 80px;
+  }
+  /* text */
+  .title {
+    font-size: 50px;
+    margin: 1.2rem 0 0 0;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  form {
+    flex-direction: row;
+    margin: 0 25%;
+    height: auto;
+    position: relative;
+  }
+  .email {
+    flex-grow: 3;
+    padding: 1.2rem;
+  }
+  .email:focus {
+    border-width: 1px;
+  }
+  button {
+    flex-grow: 1;
+    padding: 1.2rem;
+    margin-left: 1rem;
+  }
+  /* stats */
+  .stats {
+    margin: 4rem 0 0 0;
+    width: 45%;
+  }
+  /* messages */
+  .message-1,
+  .message-2,
+  .message-3 {
+    position: absolute;
+    left: 25px;
+    bottom: -30px;
+  }
+}
