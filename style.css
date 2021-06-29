@@ -81,12 +81,12 @@ button:hover {
   margin: 1rem 0 4rem 0;
 }
 /* social */
-.social {
+ul {
   margin: 4rem 0 0 0;
   color: var(--blue);
   padding: 0;
 }
-.social i {
+ul i {
   margin: 0 10px;
 }
 footer p {
@@ -142,14 +142,14 @@ p.valid {
   }
   .email {
     flex-grow: 3;
-    padding: 1.2rem;
+    padding: 0.8rem;
   }
   .email:focus {
     border-width: 1px;
   }
   button {
     flex-grow: 1;
-    padding: 1.2rem;
+    padding: 0.8rem;
     margin-left: 1rem;
   }
   /* stats */
