@@ -81,12 +81,12 @@ button:hover {
   margin: 1rem 0 4rem 0;
 }
 /* social */
-ul {
+.social {
   margin: 4rem 0 0 0;
   color: var(--blue);
   padding: 0;
 }
-ul i {
+.social i {
   margin: 0 10px;
 }
 footer p {
