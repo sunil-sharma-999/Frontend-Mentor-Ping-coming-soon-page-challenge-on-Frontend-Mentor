@@ -1,4 +1,4 @@
-# Frontend Mentor - Ping coming soon page solution
+# Ping coming soon page solution
 
 This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Ping coming soon page solution - GitHub](https://github.com/sunil-sharma-999/Frontend-Mentor-Ping-coming-soon-page-challenge-on-Frontend-Mentor/)
-- Live Site URL: [Ping coming soon page solution](https://sunil-sharma-999.github.io/Frontend-Mentor-Ping-coming-soon-page-challenge-on-Frontend-Mentor/)
+- Solution URL: [Ping coming soon page solution - GitHub](https://github.com/sunil-sharma-999/Ping-coming-soon-page-challenge-on-Frontend-Mentor/)
+- Live Site URL: [Ping coming soon page solution](https://sunil-sharma-999.github.io/Ping-coming-soon-page-challenge-on-Frontend-Mentor/)
 
 ## My process
 
